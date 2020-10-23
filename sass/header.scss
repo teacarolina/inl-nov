@@ -1,0 +1,13 @@
+header {
+    background: url("bilder/header.png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125vh;
+}
+
+.h1-head {
+    position: absolute;
+    left: 550px;
+    top: 30px;
+    color: $color-dark;
+}

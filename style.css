@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background: url("bilder/header.png.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 125vh; }
+
+.h1-head {
+  position: absolute;
+  left: 550px;
+  top: 30px;
+  color: black; }
+
+footer {
+  height: 60vh;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around; }
+
+.footer2 {
+  margin-top: 65px; }
