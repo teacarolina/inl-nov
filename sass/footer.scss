@@ -1,11 +1,27 @@
-footer {
-    height: 60vh;
+.footer {
     display: flex;
+    flex-wrap: wrap;
     background-color: $color-dark;
     color: $color-light;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.footer2 {
-    margin-top: 65px;
+.footer-article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+#footer-right {
+    padding-top: 49px;
+}
+
+.article1 {
+    color: whitesmoke;
 }

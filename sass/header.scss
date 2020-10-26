@@ -1,13 +1,29 @@
-header {
+/*.header {
     background: url("bilder/header.png.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 125vh;
+}*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}   
+
+#headerimg {
+    max-height: 100%;
+    max-width: 100%;
 }
 
+/*Funkar inte på responsive*/
 .h1-head {
-    position: absolute;
-    left: 550px;
-    top: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+
+    /*left: 550px;
+    top: 30px;*/
     color: $color-dark;
 }
