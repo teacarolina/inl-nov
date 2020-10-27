@@ -1,33 +1,24 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif; }
 
-/*.header {
-    background: url("bilder/header.png.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 125vh;
-}*/
 header {
   display: flex;
   flex-wrap: wrap;
-  position: relative; }
+  position: relative;
+  justify-content: center; }
 
 #headerimg {
   max-height: 100%;
   max-width: 100%; }
 
-/*Funkar inte på responsive*/
 .h1-head {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 70px;
-  /*left: 550px;
-    top: 30px;*/
+  top: 10%;
   color: black; }
 
 .footer {
@@ -51,4 +42,29 @@ header {
   padding-top: 49px; }
 
 .article1 {
-  color: whitesmoke; }
+  color: grey; }
+
+.tipofweek {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+  justify-content: center; }
+
+#blue-backg {
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%; }
+
+#h1sec {
+  flex-wrap: wrap;
+  position: absolute;
+  left: 42%;
+  top: 40%; }
+
+#psec {
+  flex-wrap: wrap;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 60%; }
