@@ -4,3 +4,16 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+/*Funkar inte på 320px*/
+@media (max-width: 900px) {
+    body {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .sec1 {
+        padding-top: 10%;
+    }
+}
