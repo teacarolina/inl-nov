@@ -5,7 +5,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*Funkar inte på 320px*/
+/*Used media queries to make the page work on every device*/
+/*Funkar inte på 320px?????????????*/
 @media (max-width: 900px) {
     body {
         font-size: 0.7rem;

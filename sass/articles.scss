@@ -1,0 +1,42 @@
+/*First article*/
+.article1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+#phone1 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.art11 {
+    margin-top: 10%;
+    width: 50%;
+    text-align: left;
+}
+
+/*Second article*/
+.article2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.art3 {
+    margin-top: 10%;
+    width: 50%;
+    text-align: right;
+}
+
+#phone2 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.art4 {
+    margin: 10%;
+    text-align: left;
+}

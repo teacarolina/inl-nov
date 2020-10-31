@@ -17,3 +17,20 @@ header {
     top: 10%;
     color: $color-dark;
 }
+
+/*h1 starting the articles*/
+.rubriken {
+    position: relative;
+    display: flex;
+    width: 50%;
+}
+
+.rubriken1 {
+    text-align: right;
+}
+
+#stortext {
+    position: absolute;
+    right: 15%;
+    bottom: 120%;
+}

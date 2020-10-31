@@ -5,7 +5,8 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif; }
 
-/*Funkar inte på 320px*/
+/*Used media queries to make the page work on every device*/
+/*Funkar inte på 320px?????????????*/
 @media (max-width: 900px) {
   body {
     font-size: 0.7rem; } }
@@ -31,6 +32,20 @@ header {
   top: 10%;
   color: black; }
 
+/*h1 starting the articles*/
+.rubriken {
+  position: relative;
+  display: flex;
+  width: 50%; }
+
+.rubriken1 {
+  text-align: right; }
+
+#stortext {
+  position: absolute;
+  right: 15%;
+  bottom: 120%; }
+
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -54,6 +69,7 @@ header {
 .article1 {
   color: grey; }
 
+/*Tip of the week section on the page*/
 .tipofweek {
   display: flex;
   flex-wrap: wrap;
@@ -74,6 +90,43 @@ header {
   width: 70%;
   right: 15%; }
 
+/*Section for the black part on the page*/
 .black {
   height: 300px;
   background-color: black; }
+
+/*First article*/
+.article1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative; }
+
+#phone1 {
+  max-height: 100%;
+  max-width: 100%; }
+
+.art11 {
+  margin-top: 10%;
+  width: 50%;
+  text-align: left; }
+
+/*Second article*/
+.article2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative; }
+
+.art3 {
+  margin-top: 10%;
+  width: 50%;
+  text-align: right; }
+
+#phone2 {
+  max-height: 100%;
+  max-width: 100%; }
+
+.art4 {
+  margin: 10%;
+  text-align: left; }
