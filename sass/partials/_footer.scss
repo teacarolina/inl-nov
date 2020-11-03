@@ -11,10 +11,11 @@
     flex-wrap: wrap;
     flex-direction: column;
     width: 250px;
-    height: 250px;
+    height: 50%;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 4%;
+    padding-bottom: 4%;
 }
 
 .footer-p {
@@ -22,5 +23,6 @@
 }
 
 #footer-right {
-    padding-top: 49px;
+    padding-top: 4%;
+    text-align: right;
 }

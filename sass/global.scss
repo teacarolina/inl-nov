@@ -6,15 +6,21 @@
 }
 
 /*Used media queries to make the page work on every device*/
-/*Funkar inte på 320px?????????????*/
-@media (max-width: 900px) {
-    body {
-        font-size: 0.7rem;
-    }
-}
 
 @media (min-width: 768px) {
     .sec1 {
         padding-top: 10%;
+    }
+}
+
+@media (max-width: 541px) {
+    body {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 281px) {
+    body {
+        font-size: 0.3rem;
     }
 }

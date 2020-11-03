@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -6,14 +5,17 @@
   font-family: 'Montserrat', sans-serif; }
 
 /*Used media queries to make the page work on every device*/
-/*Funkar inte på 320px?????????????*/
-@media (max-width: 900px) {
-  body {
-    font-size: 0.7rem; } }
-
 @media (min-width: 768px) {
   .sec1 {
     padding-top: 10%; } }
+
+@media (max-width: 541px) {
+  body {
+    font-size: 0.5rem; } }
+
+@media only screen and (max-width: 281px) {
+  body {
+    font-size: 0.3rem; } }
 
 header {
   display: flex;
@@ -58,16 +60,18 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
   width: 250px;
-  height: 250px;
+  height: 50%;
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 50px; }
+  margin-top: 4%;
+  padding-bottom: 4%; }
 
 .footer-p {
   color: grey; }
 
 #footer-right {
-  padding-top: 49px; }
+  padding-top: 4%;
+  text-align: right; }
 
 /*Tip of the week section on the page*/
 .tipofweek {
@@ -86,7 +90,7 @@ header {
   flex-wrap: wrap;
   text-align: center;
   position: absolute;
-  top: 23%;
+  top: 40%;
   width: 70%;
   right: 15%; }
 
@@ -100,7 +104,9 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  position: relative; }
+  position: relative;
+  margin-right: 15%;
+  margin-left: 20%; }
 
 .article1--card1 {
   margin-top: 10%;
@@ -116,7 +122,9 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  position: relative; }
+  position: relative;
+  margin-right: 20%;
+  margin-left: 20%; }
 
 #phone2 {
   max-height: 100%;
