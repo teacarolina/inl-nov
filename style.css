@@ -21,27 +21,27 @@ header {
   position: relative;
   justify-content: center; }
 
-#headerimg {
-  max-height: 100%;
-  max-width: 100%; }
-
-.h1-head {
+.header-h1 {
   display: flex;
   justify-content: center;
   position: relative;
   top: 10%;
   color: black; }
 
+#header--img {
+  max-height: 100%;
+  max-width: 100%; }
+
 /*h1 starting the articles*/
-.rubriken {
+.paragraph {
   position: relative;
   display: flex;
   width: 50%; }
 
-.rubriken1 {
+.paragraph--card {
   text-align: right; }
 
-#stortext {
+#paragraph-h1 {
   position: absolute;
   right: 15%;
   bottom: 120%; }
@@ -53,7 +53,7 @@ header {
   color: white;
   justify-content: center; }
 
-.footer-article {
+.footer--article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -63,11 +63,11 @@ header {
   margin-right: 50px;
   margin-top: 50px; }
 
+.footer-p {
+  color: grey; }
+
 #footer-right {
   padding-top: 49px; }
-
-.article1 {
-  color: grey; }
 
 /*Tip of the week section on the page*/
 .tipofweek {
@@ -75,12 +75,12 @@ header {
   flex-wrap: wrap;
   position: relative; }
 
-#blue-backg {
+#blue-background {
   width: 100%;
   max-height: 100%;
   max-width: 100%; }
 
-.sec1 {
+.tipofweek-article {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -102,14 +102,14 @@ header {
   justify-content: space-around;
   position: relative; }
 
-#phone1 {
-  max-height: 100%;
-  max-width: 100%; }
-
-.art11 {
+.article1--card1 {
   margin-top: 10%;
   width: 50%;
   text-align: left; }
+
+#phone1 {
+  max-height: 100%;
+  max-width: 100%; }
 
 /*Second article*/
 .article2 {
@@ -118,15 +118,15 @@ header {
   justify-content: space-around;
   position: relative; }
 
-.art3 {
-  margin-top: 10%;
-  width: 50%;
-  text-align: right; }
-
 #phone2 {
   max-height: 100%;
   max-width: 100%; }
 
-.art4 {
+.article2--card2 {
+  margin-top: 10%;
+  width: 50%;
+  text-align: right; }
+
+.article2--card3 {
   margin: 10%;
   text-align: left; }

@@ -6,15 +6,15 @@
     position: relative;
 }
 
-#phone1 {
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.art11 {
+.article1--card1 {
     margin-top: 10%;
     width: 50%;
     text-align: left;
+}
+
+#phone1 {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /*Second article*/
@@ -25,18 +25,18 @@
     position: relative;
 }
 
-.art3 {
-    margin-top: 10%;
-    width: 50%;
-    text-align: right;
-}
-
 #phone2 {
     max-height: 100%;
     max-width: 100%;
 }
 
-.art4 {
+.article2--card2 {
+    margin-top: 10%;
+    width: 50%;
+    text-align: right;
+}
+
+.article2--card3 {
     margin: 10%;
     text-align: left;
 }

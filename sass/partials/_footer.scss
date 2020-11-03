@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.footer-article {
+.footer--article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -17,10 +17,10 @@
     margin-top: 50px;
 }
 
-#footer-right {
-    padding-top: 49px;
+.footer-p {
+    color: $color-medium;
 }
 
-.article1 {
-    color: $color-medium;
+#footer-right {
+    padding-top: 49px;
 }
