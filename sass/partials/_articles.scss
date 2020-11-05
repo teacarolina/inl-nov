@@ -2,16 +2,19 @@
 .article1 {
     display: flex;
     flex-wrap: wrap;
+    /*tar jag bort den här blir dem bredvid men fult????*/
     justify-content: space-around;
     position: relative;
     margin-right: 15%;
     margin-left: 20%;
+    color: $color-dark;
 }
 
 .article1--card1 {
     margin-top: 10%;
     width: 50%;
     text-align: left;
+    /*flex: 50%;*/
 }
 
 #phone1 {
@@ -27,6 +30,7 @@
     position: relative;
     margin-right: 20%;
     margin-left: 20%;
+    color: $color-dark;
 }
 
 #phone2 {
@@ -35,7 +39,7 @@
 }
 
 .article2--card2 {
-    margin-top: 10%;
+    margin-top: 15%;
     width: 50%;
     text-align: right;
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +6,13 @@
   font-family: 'Montserrat', sans-serif; }
 
 /*Used media queries to make the page work on every device*/
-@media (min-width: 768px) {
-  .sec1 {
-    padding-top: 10%; } }
+@media (min-width: 765px) {
+  #footer-right {
+    margin-top: 6.5%; } }
+
+@media (min-width: 1023px) {
+  #footer-right {
+    margin-top: 4.5%; } }
 
 @media (max-width: 541px) {
   body {
@@ -28,7 +33,7 @@ header {
   justify-content: center;
   position: relative;
   top: 10%;
-  color: black; }
+  color: #1a1a1a; }
 
 #header--img {
   max-height: 100%;
@@ -41,7 +46,8 @@ header {
   width: 50%; }
 
 .paragraph--card {
-  text-align: right; }
+  text-align: right;
+  color: #1a1a1a; }
 
 #paragraph-h1 {
   position: absolute;
@@ -51,7 +57,7 @@ header {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: black;
+  background-color: #1f1e1e;
   color: white;
   justify-content: center; }
 
@@ -67,7 +73,7 @@ header {
   padding-bottom: 4%; }
 
 .footer-p {
-  color: grey; }
+  color: #dbd9d9; }
 
 #footer-right {
   padding-top: 4%;
@@ -92,26 +98,31 @@ header {
   position: absolute;
   top: 40%;
   width: 70%;
-  right: 15%; }
+  right: 15%;
+  color: #1a1a1a; }
 
 /*Section for the black part on the page*/
-.black {
-  height: 300px;
-  background-color: black; }
+.video1 {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto; }
 
 /*First article*/
 .article1 {
   display: flex;
   flex-wrap: wrap;
+  /*tar jag bort den här blir dem bredvid men fult????*/
   justify-content: space-around;
   position: relative;
   margin-right: 15%;
-  margin-left: 20%; }
+  margin-left: 20%;
+  color: #1a1a1a; }
 
 .article1--card1 {
   margin-top: 10%;
   width: 50%;
-  text-align: left; }
+  text-align: left;
+  /*flex: 50%;*/ }
 
 #phone1 {
   max-height: 100%;
@@ -124,14 +135,15 @@ header {
   justify-content: space-around;
   position: relative;
   margin-right: 20%;
-  margin-left: 20%; }
+  margin-left: 20%;
+  color: #1a1a1a; }
 
 #phone2 {
   max-height: 100%;
   max-width: 100%; }
 
 .article2--card2 {
-  margin-top: 10%;
+  margin-top: 15%;
   width: 50%;
   text-align: right; }
 

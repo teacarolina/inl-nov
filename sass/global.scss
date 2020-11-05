@@ -7,9 +7,15 @@
 
 /*Used media queries to make the page work on every device*/
 
-@media (min-width: 768px) {
-    .sec1 {
-        padding-top: 10%;
+@media (min-width: 765px) {
+    #footer-right {
+        margin-top: 6.5%;
+    }
+}
+
+@media (min-width: 1023px) {
+    #footer-right {
+        margin-top: 4.5%;
     }
 }
 
