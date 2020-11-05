@@ -1,8 +1,8 @@
+/*Article sections on the page*/
+
 /*First article*/
 .article1 {
     display: flex;
-    flex-wrap: wrap;
-    /*tar jag bort den här blir dem bredvid men fult????*/
     justify-content: space-around;
     position: relative;
     margin-right: 15%;
@@ -14,7 +14,6 @@
     margin-top: 10%;
     width: 50%;
     text-align: left;
-    /*flex: 50%;*/
 }
 
 #phone1 {
@@ -25,7 +24,6 @@
 /*Second article*/
 .article2 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
     margin-right: 20%;
@@ -36,15 +34,25 @@
 #phone2 {
     max-height: 100%;
     max-width: 100%;
+    margin-top: 5%;
 }
 
 .article2--card2 {
     margin-top: 15%;
-    width: 50%;
+    width: 100%;
     text-align: right;
 }
 
+.article2-bottom {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: $color-dark;
+}
+
 .article2--card3 {
-    margin: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
     text-align: left;
 }

@@ -6,16 +6,9 @@
 }
 
 /*Used media queries to make the page work on every device*/
-
-@media (min-width: 765px) {
-    #footer-right {
-        margin-top: 6.5%;
-    }
-}
-
-@media (min-width: 1023px) {
-    #footer-right {
-        margin-top: 4.5%;
+@media only screen and (max-width: 281px) {
+    body {
+        font-size: 0.3rem;
     }
 }
 
@@ -23,10 +16,26 @@
     body {
         font-size: 0.5rem;
     }
+
+    #card1 {
+          width: 100%;
+          margin-bottom: 4%;
+    }
 }
 
-@media only screen and (max-width: 281px) {
-    body {
-        font-size: 0.3rem;
+@media (min-width: 765px) {
+    #footer-right {
+        margin-top: 6.5%;
+    }
+
+    #card1 {
+        width: 50%;
+        margin-bottom: 4%;
+  }
+}
+
+@media (min-width: 1023px) {
+    #footer-right {
+        margin-top: 4.5%;
     }
 }

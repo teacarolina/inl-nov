@@ -1,4 +1,5 @@
-@charset "UTF-8";
+/*All the scss files are imported below into main.scss, partials folder added to sass folder to separate the code
+and make it easier to read*/
 * {
   margin: 0;
   padding: 0;
@@ -6,22 +7,30 @@
   font-family: 'Montserrat', sans-serif; }
 
 /*Used media queries to make the page work on every device*/
+@media only screen and (max-width: 281px) {
+  body {
+    font-size: 0.3rem; } }
+
+@media (max-width: 541px) {
+  body {
+    font-size: 0.5rem; }
+  #card1 {
+    width: 100%;
+    margin-bottom: 4%; } }
+
 @media (min-width: 765px) {
   #footer-right {
-    margin-top: 6.5%; } }
+    margin-top: 6.5%; }
+  #card1 {
+    width: 50%;
+    margin-bottom: 4%; } }
 
 @media (min-width: 1023px) {
   #footer-right {
     margin-top: 4.5%; } }
 
-@media (max-width: 541px) {
-  body {
-    font-size: 0.5rem; } }
-
-@media only screen and (max-width: 281px) {
-  body {
-    font-size: 0.3rem; } }
-
+/*My color variables I used in this project to make it easier to use the same color*/
+/*Header section of the page*/
 header {
   display: flex;
   flex-wrap: wrap;
@@ -54,6 +63,7 @@ header {
   right: 15%;
   bottom: 120%; }
 
+/*Footer section of the page*/
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -101,17 +111,16 @@ header {
   right: 15%;
   color: #1a1a1a; }
 
-/*Section for the black part on the page*/
+/*Section for the video on the page*/
 .video1 {
   object-fit: contain;
   max-width: 100%;
   height: auto; }
 
+/*Article sections on the page*/
 /*First article*/
 .article1 {
   display: flex;
-  flex-wrap: wrap;
-  /*tar jag bort den här blir dem bredvid men fult????*/
   justify-content: space-around;
   position: relative;
   margin-right: 15%;
@@ -121,8 +130,7 @@ header {
 .article1--card1 {
   margin-top: 10%;
   width: 50%;
-  text-align: left;
-  /*flex: 50%;*/ }
+  text-align: left; }
 
 #phone1 {
   max-height: 100%;
@@ -131,7 +139,6 @@ header {
 /*Second article*/
 .article2 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   position: relative;
   margin-right: 20%;
@@ -140,13 +147,22 @@ header {
 
 #phone2 {
   max-height: 100%;
-  max-width: 100%; }
+  max-width: 100%;
+  margin-top: 5%; }
 
 .article2--card2 {
   margin-top: 15%;
-  width: 50%;
+  width: 100%;
   text-align: right; }
 
+.article2-bottom {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: #1a1a1a; }
+
 .article2--card3 {
-  margin: 10%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
   text-align: left; }

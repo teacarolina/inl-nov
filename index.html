@@ -1,107 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inlämning</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inlämning</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-<!--Header section with text, image and h1 for article section-->
-    <header>
-        <section class="header">
-            <h1 class="header-h1">Voodoo</h1>
-            <img src="bilder/header.png.png" alt="header" id="header--img">
+    <body>
+<!--Header section with text, image and h1 for article section,
+    put h1 in the same container as img to be able to place h1 correctly-->
+        <header>
+            <section class="header">
+                <h1 class="header-h1">Voodoo</h1>
+                <img src="bilder/header.png.png" alt="header" id="header--img">
+            </section>
+            <div class="paragraph">
+                <article class="paragraph--card">
+                    <h1 id="paragraph-h1">Hey guys,</h1><br/>
+                    <br/>This week we'll be discussing the concept of <b>"Youtubability"</b> -
+                     another important game guideline.
+                </article>
+            </div>
+        </header>
+
+<!--First article section,
+    used 2 div to separate img and text in same container-->
+        <section class="article1">
+            <div class="article1--card1" id="card1">
+                <b>Youtubability</b><br/>
+                <br/>A key driver of youtubability is <b>the clarity of your gameplay</b> to a potential 
+                player.<br/>
+                <br/>Gameplay clarity will help you achieve the full potential of your game by working on 
+                getting <b>the lowest possible CPIs</b> for your games.<br/>
+                <br/>Many elements can be used to make your game clearer:<br/>
+                <br/>For instance, ask yourself if a user's interaction with the game is <b>evident</b>, 
+                for example, can she tell which character she <b>controls?</b> Is the <b>objective clear?</b> 
+                Does it look <b>fun to play?</b> Has she understood the game after 1 second (great!) or after
+                10 seconds (too long!).<br/>
+                <br/>Make sure the <b>use colours</b> to help indicate the gameplay rules. For instance, in 
+                Helix Jump, obstacles are <b>clearly contrasted</b> (in orange here) and instantly recognized 
+                as a threat.
+            </div>
+            <div class="article1--card2">
+                <img id="phone1" src="bilder/phone_no1-03.png" alt="Illustrated black phone">
+            </div>
         </section>
 
-        <div class="paragraph">
-            <article class="paragraph--card">
-                <h1 id="paragraph-h1">Hey guys,</h1><br/>
-                <br/>This week we'll be discussing the concept of <b>"Youtuba   bility"</b> -
-                     another important game guideline.
-            </article>
+<!--This is the section for the video on the page.-->
+        <div class="div--video">
+            <video class="video1" src="bilder/video_comp.mp4" controls=""></video>
         </div>
-    </header>
 
-<!--First article section-->
-    <section class="article1">
-        <div class="article1--card1">
-            <b>Youtubability</b><br/>
-            <br/>A key driver of youtubability is <b>the clarity of your gameplay</b> to a potential 
-            player.<br/>
-            <br/>Gameplay clarity will help you achieve the full potential of your game by working on 
-            getting <b>the lowest possible CPIs</b> for your games.<br/>
-            <br/>Many elements can be used to make your game clearer:<br/>
-            <br/>For instance, ask yourself if a user's interaction with the game is <b>evident</b>, 
-            for example, can she tell which character she <b>controls?</b> Is the <b>objective clear?</b> 
-            Does it look <b>fun to play?</b> Has she understood the game after 1 second (great!) or after
-            10 seconds (too long!).<br/>
-            <br/>Make sure the <b>use colours</b> to help indicate the gameplay rules. For instance, in 
-            Helix Jump, obstacles are <b>clearly contrasted</b> (in orange here) and instantly recognized 
-            as a threat.
-        </div>
-        <div class="article1--card2">
-        <img id="phone1" src="bilder/phone_no1-03.png" alt="Illustrated black phone">
-        </div>
-    </section>
+<!--Second article section,
+    used 2 div to separate img and text in same container-->
+        <section class="article2">
+            <div class="article2--card1">
+                <img id="phone2" src="bilder/phone_no2-03.png" alt="Another illustrated black phone">
+            </div>
+            <div class="article2--card2">
+                If you want to run user tests with friends and family or even random people in the street, 
+                it is interesting to show them the 30 second video before making them try to prototype in order to
+                <b>understand their</b> expectaions from the video vs. the actual game they try.<br/>
+                <br/><b>Make it obvious</b> with visual elements that help <b>understand the objective and 
+                controls</b> of the game, like with the target used in Viatcheslav Tarasov's Purple Diver or Fabrika 
+                Games' Draw Car with the space dedicated to drawing.
+            </div>
+        </section>
+<!--Still Second article section,
+    put this in different section to place this text under the img and first text-->
+        <section class="article2-bottom">
+            <div class="article2--card3">
+                People will be watching the gameplay videos of your games <b>on their phone's Facebook feed</b>,
+                everything will seem smaller than when displated in Unity or as a video on your computer screen. 
+                <b>You should also consider whether your gameplay video is understandable if someone watches it on a 
+                small screen.</b> With an average watch time of 3 to 5 seconds, this is an <b>accelerated elevator 
+                pitch!</b><br/>
+                <br/>Think of the moment when you decide to click on a random video on YouTube just because
+                it has an attractive thumbnail - it's the same idea for your game videos.
+            </div>
+        </section>
 
-    <div class="video--test">
-    <video class="video1" src="bilder/video_comp.mp4" controls=""></video>
+<!--Section for Tip of the Week,
+    put the img as background to put the text on top-->
+    <div class="tipofweek">
+        <img src="bilder/Q1_newsletter-02.png" alt="Blue cloud shaped background" id="blue-background">
+        <div class="tipofweek-article">
+            <h1 id="tipofweek-h1"><b>Tip of the week</b></h1><br/>
+            <p id="tipofweek-p">Livestreams we hold every week are an interesting resource for you to consult. There are 
+            plenty of relevant subjects covered to guide and orient you towards best practices and they are <b>all 
+            replayable on the dashboard</b> so don't hesitate to check them out!</p>
+        </div>
     </div>
-    <!--<section class="black">
-        <video src="bilder/video_comp.mp4"></video>
-    This is the section for the black part on the page, this is why it's empty.
-    </section>-->
 
-<!--Second article section-->
-    <section class="article2">
-        <div class="article2--card1">
-            <img id="phone2" src="bilder/phone_no2-03.png" alt="Another illustrated black phone">
-        </div>
-        <div class="article2--card2">
-            If you want to run user tests with friends and family or even random people in the street, 
-            it is interesting to show them the 30 second video before making them try to prototype in order to
-            <b>understand their</b> expectaions from the video vs. the actual game they try.<br/>
-            <br/><b>Make it obvious</b> with visual elements that help <b>understand the objective and controls</b> 
-            of the game, like with the target used in Viatcheslav Tarasov's Purple Diver or Fabrika Games' Draw Car
-            with the space dedicated to drawing.
-        </div>
-        <div class="article2--card3">
-            People will be watching the gameplay videos of your games <b>on their phone's Facebook feed</b>,
-            everything will seem smaller than when displated in Unity or as a video on your computer screen. 
-            <b>You should also consider whether your gameplay video is understandable if someone watches it on a 
-            small screen.</b> With an average watch time of 3 to 5 seconds, this is an <b>accelerated elevator 
-            pitch!</b><br/>
-            <br/>Think of the moment when you decide to click on a random video on YouTube just because
-            it has an attractive thumbnail - it's the same idea for your game videos.
-        </div>
-    </section>
+<!--Footer section, 
+    used 2 articles to separate the text-->
+    <footer class="footer"> 
+        <article class="footer--article">
+            <h1><b>Livestream</b></h1><br/>
+            <p class="footer-p">The next publishing livestream will be held this Thursday (7th November) at 3pm 
+            CET (Paris time)<br/>
+            <br/>You'll receive a reminder e-mail tomorrow.</p>
+        </article>
+        <article class="footer--article" id="footer-right">
+            <p><em>We look forward seeing your next prototype!<br/>
+            <br/>The Publishing team</em></p>
+        </article>
+    </footer>
 
-<!--Section for Tip of the Week-->
-<div class="tipofweek">
-    <img src="bilder/Q1_newsletter-02.png" alt="Blue cloud shaped background" id="blue-background">
-    <div class="tipofweek-article">
-        <h1 id="tipofweek-h1"><b>Tip of the week</b></h1><br/>
-        <p id="tipofweek-p">Livestreams we hold every week are an interesting resource for you to consult. There are 
-        plenty of relevant subjects covered to guide and orient you towards best practices and they are <b>all 
-        replayable on the dashboard</b> so don't hesitate to check them out!</p>
-    </div>
-</div>
-
-<!--Footer section-->
-<footer class="footer"> 
-    <article class="footer--article">
-        <h1><b>Livestream</b></h1><br/>
-        <p class="footer-p">The next publishing livestream will be held this Thursday (7th November) at 3pm CET (Paris time)<br/>
-        <br/>You'll receive a reminder e-mail tomorrow.</p>
-    </article>
-    <article class="footer--article" id="footer-right">
-        <p><em>We look forward seeing your next prototype!<br/>
-        <br/>The Publishing team</em></p>
-    </article>
-</footer>
-
-</body>
+    </body>
 </html>
